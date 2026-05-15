@@ -281,13 +281,13 @@ export default function RTechMainPage() {
                 img: '/assets/rotation.png'
               },
               {
-                title: 'Financial Services Platform',
-                desc: 'A secure, accessible platform that simplified complex financial processes',
+                title: ' BALANCE CORRECTION MACHINE',
+                desc: 'BALANCE CORRECTION MACHINE that improved product quality and reduced waste by 20% for a major consumer goods company',
                 img: '/assets/finance.png'
               },
               {
-                title: 'Fitness Tracking App',
-                desc: 'An intuitive mobile experience with over 500,000 active users',
+                title: 'VISION SYSTEM INSTALLATION',
+                desc: 'VISION SYSTEM INSTALLATION that enhanced quality control and reduced defects by 25% for a major automotive supplier',
                 img: '/assets/fitness.png'
               },
             ].map((project, i) => (
