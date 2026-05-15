@@ -145,7 +145,7 @@ export default function Aboutspage() {
         {/* About Section */}
         <section
           id="aboutus-section"
-          className="bg-blue-700 bg-opacity-70 text-white py-20 w-full"
+          className="bg-blue-900 text-white py-20 px-8 text-center w-full flex flex-col justify-normal"
         >
           <div className="mx-auto" style={{ maxWidth: '80vw' }}>
             <h2 className="text-4xl font-bold mb-6">About R-tech Machine & Tools</h2>
