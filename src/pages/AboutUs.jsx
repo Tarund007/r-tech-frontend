@@ -49,21 +49,21 @@ const valuesData = [
 ];
 
 const testimonials = [
-  {
-    name: 'Michael Chen',
-    title: 'CEO, Innovate Solutions',
-    text: 'The team at Engaging transformed our digital presence completely. Our website traffic has increased by 200% and our conversion rates have never been higher. Their strategic approach made all the difference.'
-  },
-  {
-    name: 'Sarah Johnson',
-    title: 'Marketing Director, TechVision',
-    text: "Working with Engaging was a game-changer for our business. They created a comprehensive digital strategy that has helped us scale rapidly. I can't recommend them enough."
-  },
-  {
-    name: 'Jessica Martinez',
-    title: 'Product Manager, EcoLife',
-    text: 'The user experience design that Engaging created for our app has received countless compliments from our users. Their team truly understood our vision and brought it to life.'
-  }
+   {
+                name: 'Mukul Verma',
+                title: 'CEO, NEOKRAFT',
+                quote: '"Great experience working with R-Tech Machine & Tools. Their team of experts delivered a custom mechanical solution that exceeded our expectations. The precision and performance of their work have significantly improved our operations. Highly recommend their services!"'
+              },
+              {
+                name: 'Sudhir Upadhyay',
+                title: 'Manager, HONDA',
+                quote: '"R-Tech Machine & Tools provided us with an innovative mechanical design that has transformed our production line. Their attention to detail and commitment to quality is unmatched. We have seen a significant boost in efficiency since implementing their solution."'
+              },
+              {
+                name: 'Rajveer Singh',
+                title: 'Manager , Shivam Autotech',
+                quote: '"The team at R-Tech Machine & Tools is exceptional. They delivered a high-performance mechanical system that has greatly enhanced our manufacturing capabilities. Their expertise and professionalism made the entire process seamless. We are extremely satisfied with the results!"'
+              }
 ];
 
 export default function Aboutspage() {
@@ -253,16 +253,16 @@ export default function Aboutspage() {
             <div className="grid md:grid-cols-4 gap-8">
               {[{
                 name: 'D.P Dinkar', role: 'CEO & Founder', bio: '25+ years of automation expertise, built on MNC experience at DENSO, delivering precision-driven solutions',
-                img: '/dp-dinkar.png'
+                // img: '/dp-dinkar.png'
               }, {
                 name: 'Marcus Johnson', role: 'Chief Technology Officer', bio: 'Former tech lead at Google with expertise in AI and cloud solutions',
-                img: '/marcus-johnson.png'
+                // img: '/marcus-johnson.png'
               }, {
                 name: 'Elena Rodriguez', role: 'Creative Director', bio: 'Award-winning designer with background in UX/UI and brand identity',
-                img: '/elena-rodriguez.png'
+                // img: '/elena-rodriguez.png'
               }, {
                 name: 'David Kim', role: 'Strategy Director', bio: 'Digital marketing strategist with proven success across multiple industries',
-                img: '/david-kim.png'
+                // img: '/david-kim.png'
               }].map((leader, idx) => (
                 <motion.div
                   key={idx}

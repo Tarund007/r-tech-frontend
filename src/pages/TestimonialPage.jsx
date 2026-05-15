@@ -38,25 +38,25 @@ export default function TestimonialPage() {
 
   const testimonials = [
     {
-      name: "Michael Chen",
-      title: "CEO, Innovate Solutions",
+      name: "Mr Vijay Verma",
+      title: "Manager Director, Mircontech Engineers Pvt. Ltd.",
       quote:
-        "The team at Engaging transformed our digital presence completely. Our website traffic has increased by 200% and our conversion rates have never been higher.",
-      project: "Corporate Website Redesign",
+        "R-Tech Machine & Tools provided us with an innovative mechanical design that has transformed our production line. Their attention to detail and commitment to quality is unmatched. We have seen a significant boost in efficiency since implementing their solution.",
+      project: "Production Line Redesign",
     },
     {
-      name: "Sarah Johnson",
-      title: "Marketing Director, TechVision",
+      name: "Mr Rajinder Singh",
+      title: "Shivam Autotech Ltd.",
       quote:
-        "Working with Engaging was a game-changer. They created a comprehensive digital strategy that helped us scale rapidly. I can't recommend them enough.",
-      project: "Digital Marketing Campaign",
+        "The team at R-Tech Machine & Tools is exceptional. They delivered a high-performance mechanical system that has greatly enhanced our manufacturing capabilities. Their expertise and professionalism made the entire process seamless. We are extremely satisfied with the results!",
+      project: "Manufacturing System Upgrade",
     },
     {
-      name: "Jessica Martinez",
-      title: "Product Manager, EcoLife",
+      name: "Mr Sudhir Upadhyay",
+      title: "Manager, Honda",
       quote:
-        "The user experience design that Engaging created received countless compliments from our users. Their team truly understood our vision.",
-      project: "Mobile App Redesign",
+        "The user experience design that R-Tech Machine & Tools created received countless compliments from our users. Their team truly understood our vision.",
+      project: " Tooling and Automation Solutions ",
     },
   ];
 
