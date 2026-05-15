@@ -268,7 +268,7 @@ npm run test
 
 ## 👨‍💻 Developer
 
-**[Your Name]**
+**Tarun**
 - Full-stack development with React and Node.js
 - MongoDB database design and implementation
 - Google OAuth authentication integration
