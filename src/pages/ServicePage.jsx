@@ -365,7 +365,7 @@ export default function ServicesPage() {
           </div>
           <div>
             <img
-              src="/machine-facility.png"
+              src="/assets/R-Tech (9).png"
               alt="Machine Facilities"
               className="rounded-xl shadow-xl w-full object-cover"
             />
@@ -378,7 +378,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src="/measuring-facility.png"
+              src="/assets/R-Tech (10).png"
               alt="Measuring Instrument Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />
@@ -451,7 +451,7 @@ export default function ServicesPage() {
           </div>
           <div>
             <img
-              src="/electrical-power.png"
+              src="/assets/R-Tech (11).png"
               alt="Electrical Power Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />
@@ -464,7 +464,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
             <img
-              src="/clamping-facility.png"
+              src="/assets/R-Tech (12).png"
               alt="Clamping Instrument Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />

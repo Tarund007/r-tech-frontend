@@ -281,13 +281,13 @@ export default function RTechMainPage() {
                 img: '/assets/rotation.png'
               },
               {
-                title: ' BALANCE CORRECTION MACHINE',
-                desc: 'BALANCE CORRECTION MACHINE that improved product quality and reduced waste by 20% for a major consumer goods company',
+                title: 'Balance Correction Machine',
+                desc: 'Balance Correction Machine that improved product quality and reduced waste by 20% for a major consumer goods company',
                 img: '/assets/finance.png'
               },
               {
-                title: 'VISION SYSTEM INSTALLATION',
-                desc: 'VISION SYSTEM INSTALLATION that enhanced quality control and reduced defects by 25% for a major automotive supplier',
+                title: 'Vision System Installation',
+                desc: 'Vision System Installation that enhanced quality control and reduced defects by 25% for a major automotive supplier',
                 img: '/assets/fitness.png'
               },
             ].map((project, i) => (
