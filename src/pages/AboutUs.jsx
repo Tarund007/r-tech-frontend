@@ -241,46 +241,49 @@ export default function Aboutspage() {
         </motion.section>
 
         {/* Leadership Section */}
-        <motion.section
-          className="bg-gray-50 py-16 w-full"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="max-w-7xl mx-auto px-4 text-center" style={{ maxWidth: '80vw' }}>
-            <h2 className="text-3xl font-bold text-blue-800 mb-12">Meet Our Leadership Team</h2>
-            <div className="grid md:grid-cols-4 gap-8">
-              {[{
-                name: 'D.P Dinkar', role: 'CEO & Founder', bio: '25+ years of automation expertise, built on MNC experience at DENSO, delivering precision-driven solutions',
-                // img: {cnc}
-              }, {
-                name: 'Dev Nath', role: 'Production Engineer', bio: 'Mechanical engineer with expertise in CAD/CAM and FEA, driving innovation in machine tool design and development',
-                // img: {cnc}
-              }, {
-                name: 'Chandra Pal', role: 'Lathe Operator', bio: ' Skilled lathe operator with 4+ years of experience, specializing in precision machining and complex component fabrication',
-                // img: {cnc}
-              }, {
-                name: 'Rajkumar', role: 'CNC Operator', bio: 'Experienced CNC operator with 5+ years in high-precision machining, adept at programming and optimizing CNC machines for complex component production',
-                // img: {cnc}
-              }].map((leader, idx) => (
-                <motion.div
-                  key={idx}
-                  className="text-center"
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: idx * 0.2 }}
-                >
-                  {/* <img src={leader.img} alt={leader.name} className="w-40 h-40 mx-auto rounded-full object-cover mb-4" />
-                  <h3 className="font-bold text-blue-800 text-lg">{leader.name}</h3>
-                  <p className="text-blue-500 text-sm font-semibold mb-2">{leader.role}</p>
-                  <p className="text-gray-700 text-sm max-w-xs mx-auto">{leader.bio}</p> */}
-                </motion.div>
-              ))}
+          <motion.section
+            className="bg-gray-50 py-16 w-full"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <div className="max-w-7xl mx-auto px-4 text-center" style={{ maxWidth: '80vw' }}>
+              <h2 className="text-3xl font-bold text-blue-800 mb-12">Meet Our Leadership Team</h2>
+              <div className="grid md:grid-cols-4 gap-8">
+                {[{
+                  name: 'D.P Dinkar',
+                  role: 'CEO & Founder',
+                  bio: '25+ years of automation expertise, built on MNC experience at DENSO, delivering precision-driven solutions',
+                }, {
+                  name: 'Dev Nath',
+                  role: 'Production Engineer',
+                  bio: 'Mechanical engineer with expertise in CAD/CAM and FEA, driving innovation in machine tool design and development',
+                }, {
+                  name: 'Chandra Pal',
+                  role: 'Lathe Operator',
+                  bio: 'Skilled lathe operator with 4+ years of experience, specializing in precision machining and complex component fabrication',
+                }, {
+                  name: 'Rajkumar',
+                  role: 'CNC Operator',
+                  bio: 'Experienced CNC operator with 5+ years in high-precision machining, adept at programming and optimizing CNC machines for complex component production',
+                }].map((leader, idx) => (
+                  <motion.div
+                    key={idx}
+                    className="text-center"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: idx * 0.2 }}
+                  >
+                    <h3 className="font-bold text-blue-800 text-lg">{leader.name}</h3>
+                    <p className="text-blue-500 text-sm font-semibold mb-2">{leader.role}</p>
+                    <p className="text-gray-700 text-sm max-w-xs mx-auto">{leader.bio}</p>
+                  </motion.div>
+                ))}
+              </div>
             </div>
-          </div>
-        </motion.section>
+          </motion.section>
 
         {/* Achievements Section */}
         <motion.section
