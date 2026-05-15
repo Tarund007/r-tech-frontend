@@ -433,7 +433,7 @@ export default function RTechMainPage() {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">
-          We work on Trust, Trust builds Business
+          We work on Trust, Trust builds Business $ Success.
         </h2>
         <p className="text-md sm:text-lg max-w-2xl mx-auto mb-8">
           Let's work together to create engaging experiences that drive results for your business.
