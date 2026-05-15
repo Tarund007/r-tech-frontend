@@ -159,10 +159,9 @@ export default function Aboutspage() {
         {/* Mission & Vision Section */}
         <motion.section
           className="bg-gray-50 py-16 w-full"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.7 }}
         >
           <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center" style={{ maxWidth: '80vw' }}>
             <div>

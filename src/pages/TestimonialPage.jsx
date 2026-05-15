@@ -123,9 +123,8 @@ export default function TestimonialPage() {
         ref={testimonialRef}
         id="testimonial-section"
         className="py-16 px-4"
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
         <h1 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-2">
