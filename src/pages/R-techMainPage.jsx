@@ -276,19 +276,19 @@ export default function RTechMainPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
-                title: 'Luxury Fashion E-Commerce',
-                desc: 'A premium shopping experience that increased conversion rates by 45%',
-                img: '/project-fashion.png'
+                title: 'Rotatory Automation System',
+                desc: 'Rotary automation system that increased production efficiency by 30% for a leading manufacturing client',
+                img: '/assets/rotation.png'
               },
               {
                 title: 'Financial Services Platform',
                 desc: 'A secure, accessible platform that simplified complex financial processes',
-                img: '/project-finance.png'
+                img: '/assets/finance.png'
               },
               {
                 title: 'Fitness Tracking App',
                 desc: 'An intuitive mobile experience with over 500,000 active users',
-                img: '/project-fitness.png'
+                img: '/assets/fitness.png'
               },
             ].map((project, i) => (
               <motion.div
