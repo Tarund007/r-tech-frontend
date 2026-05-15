@@ -254,13 +254,13 @@ export default function Aboutspage() {
                 name: 'D.P Dinkar', role: 'CEO & Founder', bio: '25+ years of automation expertise, built on MNC experience at DENSO, delivering precision-driven solutions',
                 // img: '/dp-dinkar.png'
               }, {
-                name: 'Marcus Johnson', role: 'Chief Technology Officer', bio: 'Former tech lead at Google with expertise in AI and cloud solutions',
+                name: 'Dev Nath', role: 'Production Engineer', bio: 'Mechanical engineer with expertise in CAD/CAM and FEA, driving innovation in machine tool design and development',
                 // img: '/marcus-johnson.png'
               }, {
-                name: 'Elena Rodriguez', role: 'Creative Director', bio: 'Award-winning designer with background in UX/UI and brand identity',
+                name: 'Chandra Pal', role: 'Lathe Operator', bio: ' Skilled lathe operator with 4+ years of experience, specializing in precision machining and complex component fabrication',
                 // img: '/elena-rodriguez.png'
               }, {
-                name: 'David Kim', role: 'Strategy Director', bio: 'Digital marketing strategist with proven success across multiple industries',
+                name: 'Rajkumar', role: 'CNC Operator', bio: 'Experienced CNC operator with 5+ years in high-precision machining, adept at programming and optimizing CNC machines for complex component production',
                 // img: '/david-kim.png'
               }].map((leader, idx) => (
                 <motion.div
