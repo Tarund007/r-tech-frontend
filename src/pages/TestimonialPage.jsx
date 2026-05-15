@@ -104,7 +104,7 @@ export default function TestimonialPage() {
             >
               Testimonials
             </a>
-            <a href="/#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a>
+            {/* <a href="/#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a> */}
             <Link to="/contact" className="text-blue-800 hover:text-blue-600">Contact</Link>
           </nav>
           <div className="space-x-2">
