@@ -78,7 +78,7 @@ export default function RTechMainPage() {
               to="/about" className={`text-blue-800 hover:text-blue-600 ${location.pathname === '/About Us' ? 'font-bold border-b-2 border-blue-600' :''}`}>About Us</Link>
             <Link to="/services" className={`text-blue-800 hover:text-blue-600 ${location.pathname === '/services' ? 'font-bold border-b-2 border-blue-600' : ''}`}>Services</Link>
             <Link to="/testimonial" className={`text-blue-800 hover:text-blue-600 ${location.pathname === '/testimonial' ? 'font-bold border-b-2 border-blue-600' : ''}`}>Testimonials</Link>
-            <a href="#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a>
+            {/* <a href="#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a> */}
             <Link to="/contact" className={`text-blue-800 hover:text-blue-600 ${location.pathname === '/contact' ? 'font-bold border-b-2 border-blue-600' : ''}`}>Contact</Link>
           </nav>
           <div className="space-x-2">

@@ -196,7 +196,7 @@ export default function ServicesPage() {
             >
               Testimonials
             </Link>
-            <a href="#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a>
+            {/* <a href="#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a> */}
             <Link
               to="/contact"
               className={`text-blue-800 hover:text-blue-600 ${location.pathname === '/contact' ? 'font-bold border-b-2 border-blue-600' : ''}`}

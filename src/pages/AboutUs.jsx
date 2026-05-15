@@ -126,7 +126,7 @@ export default function Aboutspage() {
             </a>
             <Link to="/services" className="text-blue-800 hover:text-blue-600">Services</Link>
             <Link to="/testimonial" className="text-blue-800 hover:text-blue-600">Testimonials</Link>
-            <a href="#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a>
+            {/* <a href="#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a> */}
             <Link to="/contact" className="text-blue-800 hover:text-blue-600">Contact</Link>
           </nav>
           <div className="space-x-2">

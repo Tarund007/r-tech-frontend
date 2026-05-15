@@ -168,7 +168,7 @@ export default function ContactUsPage() {
 						<Link to="/about" className="text-blue-800 hover:text-blue-600">About Us</Link>
 						<Link to="/services" className="text-blue-800 hover:text-blue-600">Services</Link>
 						<Link to="/testimonial" className="text-blue-800 hover:text-blue-600">Testimonials</Link>
-						<a href="/#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a>
+						{/* <a href="/#portfolio" className="text-blue-800 hover:text-blue-600">Portfolio</a> */}
 						<a
 							href="#contact-section"
 							className={`font-bold ${contactActive ? 'text-blue-800 border-b-2 border-blue-600' : 'text-blue-800 hover:text-blue-600'}`}
