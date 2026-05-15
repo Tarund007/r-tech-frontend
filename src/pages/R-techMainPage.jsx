@@ -7,6 +7,9 @@ import { FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import Firstpagetalk from '../assets/firstpagetalk.png';
 import ThisIsEngineering from '../assets/thisisengineering.jpeg';
 import RTechLogo from '../assets/R-Tech (10).png';
+import rotation from '../assets/rotation.png';
+import balance from '../assets/finance.png';
+import vision from '../assets/fitness.png';
 import { useLocation, Link, useNavigate } from 'react-router-dom'; // <-- import useLocation
 
 import SignPage from './Admin/SignIn';
@@ -278,17 +281,17 @@ export default function RTechMainPage() {
               {
                 title: 'Rotatory Automation System',
                 desc: 'Rotary automation system that increased production efficiency by 30% for a leading manufacturing client',
-                img: '/assets/rotation.png'
+                img: {rotation}
               },
               {
                 title: 'Balance Correction Machine',
                 desc: 'Balance Correction Machine that improved product quality and reduced waste by 20% for a major consumer goods company',
-                img: '/assets/finance.png'
+                img: {balance}
               },
               {
                 title: 'Vision System Installation',
                 desc: 'Vision System Installation that enhanced quality control and reduced defects by 25% for a major automotive supplier',
-                img: '/assets/fitness.png'
+                img: {vision}
               },
             ].map((project, i) => (
               <motion.div
