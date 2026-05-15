@@ -452,7 +452,7 @@ export default function ServicesPage() {
           </div>
           <div>
             <img
-              src="/assets/cnc.png"
+              src={assetsPlc}
               alt="Electrical Power Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />
@@ -465,7 +465,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
             <img
-              src="/assets/R-Tech (12).png"
+              src={assetsClamping}
               alt="Clamping Instrument Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />
