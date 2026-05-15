@@ -451,7 +451,7 @@ export default function ServicesPage() {
           </div>
           <div>
             <img
-              src="/assets/R-Tech (11).png"
+              src="/assets/cnc.png"
               alt="Electrical Power Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />
