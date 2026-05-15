@@ -394,7 +394,7 @@ export default function TestimonialPage() {
         </div>
         <div className="bg-gray-100 border-t mt-8 py-4 text-center max-w-full ">
           <span className="text-xs text-gray-500">
-            © 2025 R-Tech Machine &amp; Tools. All rights reserved.
+            © 2026 R-Tech Machine &amp; Tools. All rights reserved.
           </span>
         </div>
       </footer>
