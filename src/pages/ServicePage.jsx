@@ -10,6 +10,7 @@ import assetsCnc from '../assets/cnc.png';
 import assetsPlc from '../assets/plc.png';
 import assetsMeasuring from '../assets/measuring.png';
 import assetsClamping from '../assets/clamping.png';
+import assetsMechanical from '../assets/R-Tech (9).png';
 
 const ServiceCard = ({ icon, title, description, points, delay = 0 }) => (
   <motion.div
@@ -365,7 +366,7 @@ export default function ServicesPage() {
           </div>
           <div>
             <img
-              src="/assets/R-Tech (9).png"
+              src={assetsMechanical}
               alt="Machine Facilities"
               className="rounded-xl shadow-xl w-full object-cover"
             />
@@ -378,7 +379,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src="/assets/R-Tech (10).png"
+              src={assetsMeasuring}
               alt="Measuring Instrument Facility"
               className="rounded-xl shadow-xl w-full object-cover"
             />
