@@ -49,21 +49,21 @@ const valuesData = [
 ];
 
 const testimonials = [
-   {
-                name: 'Mukul Verma',
-                title: 'CEO, NEOKRAFT',
-                quote: '"Great experience working with R-Tech Machine & Tools. Their team of experts delivered a custom mechanical solution that exceeded our expectations. The precision and performance of their work have significantly improved our operations. Highly recommend their services!"'
-              },
-              {
-                name: 'Sudhir Upadhyay',
-                title: 'Manager, HONDA',
-                quote: '"R-Tech Machine & Tools provided us with an innovative mechanical design that has transformed our production line. Their attention to detail and commitment to quality is unmatched. We have seen a significant boost in efficiency since implementing their solution."'
-              },
-              {
-                name: 'Rajveer Singh',
-                title: 'Manager , Shivam Autotech',
-                quote: '"The team at R-Tech Machine & Tools is exceptional. They delivered a high-performance mechanical system that has greatly enhanced our manufacturing capabilities. Their expertise and professionalism made the entire process seamless. We are extremely satisfied with the results!"'
-              }
+  {
+    name: 'Mr Rajinder Singh',
+    title: 'Shivam Autotech Ltd.',
+    text: 'The team at R-Tech Machine & Tools is exceptional. They delivered a high-performance mechanical system that has greatly enhanced our manufacturing capabilities. Their expertise and professionalism made the entire process seamless. We are extremely satisfied with the results!'
+  },
+  {
+    name: 'Mr Sudhir Upadhyay',
+    title: 'Manager, Honda',
+    text: 'The user experience design that R-Tech Machine & Tools created received countless compliments from our users. Their team truly understood our vision.'
+  },
+  {
+    name: 'Mr Vijay Verma',
+    title: 'Manager Director, Mircontech Engineers Pvt. Ltd.',
+    text: 'R-Tech Machine & Tools provided us with an innovative mechanical design that has transformed our production line. Their attention to detail and commitment to quality is unmatched. We have seen a significant boost in efficiency since implementing their solution.'
+  }
 ];
 
 export default function Aboutspage() {
