@@ -252,16 +252,16 @@ export default function Aboutspage() {
             <div className="grid md:grid-cols-4 gap-8">
               {[{
                 name: 'D.P Dinkar', role: 'CEO & Founder', bio: '25+ years of automation expertise, built on MNC experience at DENSO, delivering precision-driven solutions',
-                // img: '/dp-dinkar.png'
+          
               }, {
                 name: 'Dev Nath', role: 'Production Engineer', bio: 'Mechanical engineer with expertise in CAD/CAM and FEA, driving innovation in machine tool design and development',
-                // img: '/marcus-johnson.png'
+              
               }, {
                 name: 'Chandra Pal', role: 'Lathe Operator', bio: ' Skilled lathe operator with 4+ years of experience, specializing in precision machining and complex component fabrication',
-                // img: '/elena-rodriguez.png'
+            
               }, {
                 name: 'Rajkumar', role: 'CNC Operator', bio: 'Experienced CNC operator with 5+ years in high-precision machining, adept at programming and optimizing CNC machines for complex component production',
-                // img: '/david-kim.png'
+            
               }].map((leader, idx) => (
                 <motion.div
                   key={idx}
@@ -271,7 +271,7 @@ export default function Aboutspage() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: idx * 0.2 }}
                 >
-                  <img src={leader.img} alt={leader.name} className="w-40 h-40 mx-auto rounded-full object-cover mb-4" />
+                  {/* <img src={leader.img} alt={leader.name} className="w-40 h-40 mx-auto rounded-full object-cover mb-4" /> */}
                   <h3 className="font-bold text-blue-800 text-lg">{leader.name}</h3>
                   <p className="text-blue-500 text-sm font-semibold mb-2">{leader.role}</p>
                   <p className="text-gray-700 text-sm max-w-xs mx-auto">{leader.bio}</p>
