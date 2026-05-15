@@ -8,8 +8,8 @@ import Firstpagetalk from '../assets/firstpagetalk.png';
 import ThisIsEngineering from '../assets/thisisengineering.jpeg';
 import RTechLogo from '../assets/R-Tech (10).png';
 import rotation from '../assets/rotation.png';
-import balance from '../assets/finance.png';
-import vision from '../assets/fitness.png';
+import balance from '../assets/balance.png';
+import vision from '../assets/vision.png';
 import { useLocation, Link, useNavigate } from 'react-router-dom'; // <-- import useLocation
 
 import SignPage from './Admin/SignIn';
