@@ -263,7 +263,7 @@ export default function RTechMainPage() {
         </div>
       </motion.section>
 
-      {/* Featured Work Section */}
+      {/* Featured Work Section
       <motion.section
         className="bg-gray-50 py-20 px-6 w-full"
         initial={{ opacity: 0 }}
@@ -311,7 +311,7 @@ export default function RTechMainPage() {
             ))}
           </div>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       {/* Testimonials Section */}
       <motion.section
