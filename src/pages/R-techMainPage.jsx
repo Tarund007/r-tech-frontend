@@ -281,17 +281,17 @@ export default function RTechMainPage() {
               {
                 title: 'Rotatory Automation System',
                 desc: 'Rotary automation system that increased production efficiency by 30% for a leading manufacturing client',
-                img: '/assets/rotation.png'
+                src: {rotation}
               },
               {
                 title: 'Balance Correction Machine',
                 desc: 'Balance Correction Machine that improved product quality and reduced waste by 20% for a major consumer goods company',
-                img: '/assets/balance.png'
+                src: {balance}
               },
               {
                 title: 'Vision System Installation',
                 desc: 'Vision System Installation that enhanced quality control and reduced defects by 25% for a major automotive supplier',
-                img: '/assets/vision.png'
+                src: {vision}
               },
             ].map((project, i) => (
               <motion.div
