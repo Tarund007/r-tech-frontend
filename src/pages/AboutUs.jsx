@@ -253,16 +253,16 @@ export default function Aboutspage() {
             <div className="grid md:grid-cols-4 gap-8">
               {[{
                 name: 'D.P Dinkar', role: 'CEO & Founder', bio: '25+ years of automation expertise, built on MNC experience at DENSO, delivering precision-driven solutions',
-                src: {cnc}
+                img: {cnc}
               }, {
                 name: 'Dev Nath', role: 'Production Engineer', bio: 'Mechanical engineer with expertise in CAD/CAM and FEA, driving innovation in machine tool design and development',
-                src: {cnc}
+                img: {cnc}
               }, {
                 name: 'Chandra Pal', role: 'Lathe Operator', bio: ' Skilled lathe operator with 4+ years of experience, specializing in precision machining and complex component fabrication',
-                src: {cnc}
+                img: {cnc}
               }, {
                 name: 'Rajkumar', role: 'CNC Operator', bio: 'Experienced CNC operator with 5+ years in high-precision machining, adept at programming and optimizing CNC machines for complex component production',
-                src: {cnc}
+                img: {cnc}
               }].map((leader, idx) => (
                 <motion.div
                   key={idx}
