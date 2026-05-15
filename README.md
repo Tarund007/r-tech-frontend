@@ -14,7 +14,7 @@ A modern, responsive corporate website for R-Tech Machine & Tools, a precision m
 ### 📞 Contact
 
 For technical inquiries about this project:
-- Email: dinkartarun00@gmial.com
+- Email: dinkartarun00@gmail.com
 - LinkedIn: [\[Your LinkedIn Profile\]](https://www.linkedin.com/in/tarun-dinkar-14a5ba252/)
 
 
